@@ -16,11 +16,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    gameoverdialog.cpp \
     main.cpp \
-    wordle.cpp
+    wordle.cpp \
+    wordmanager.cpp
 
 HEADERS += \
-    wordle.h
+    gameoverdialog.h \
+    wordle.h \
+    wordmanager.h
 
 FORMS += \
     wordle.ui
